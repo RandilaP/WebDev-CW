@@ -2,9 +2,90 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+    
 </head>
 <body>
+   <!--Start Quiz Button-->
+   <div class="start_btn"><button>Start Quiz</button></div>
 
+   <!--info box-->
+   <div class="info_box">
+        <div class="info_tittle">
+            <span>Some Rules of this Quiz</span>
+        </div>
+        <div class="info_list">
+            <div class="info">1. You will only have <span> 20 Seconds </span> for Question.</div>
+            <div class="info">2. There are 10 Questions in this Quiz.</div>
+            <div class="info">3. You'll get points on the basis of your correct answer.</div>
+            <div class="info">4. To start the Quiz click "Continue" button.</div>
+
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Continue</button>
+        </div>
+        </div>
+
+    <!--Quiz box--> 
+    <div class="quiz_box">
+        <header>
+            <div class="title">Quiz</div>
+            <div class="timer">
+                <div class="time_text">Time left</div>
+                <div class="timer_sec">20</div>
+            </div>
+        </header>
+        <section>
+            <div class="que_text">
+                <span>What is the largest city in Sri Lanka?</span>
+            </div>
+            <div class="option_list">
+                <div class="option">
+                    <span>Kandy</span>
+                    <div class="icon cross"><i class="fas fa-times"></i></div>
+                </div>
+                <div class="option">
+                    <span>Colombo</span>
+                    <div class="icon tick"><i class="fas fa-check"></i></div>
+                </div>    
+                <div class="option">
+                    <span>Pollonaruwa</span>
+                </div>
+                <div class="option">
+                    <span>Galle</span>
+                </div>
+            </div>
+        </section>
+        
+        <!--Quiz Box Footer-->
+        <footer>
+            <div class="total_que">
+                <span>Questions<p>1</p>/<p>10</p></span>
+            </div>
+            <button class="next_btn">Next Question</button>
+        </footer>
+    </div>  
+
+    <!--Result box-->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">You Completed the Quiz!</div>
+        <div class="score_text">
+            <span>and sorry,You got only <p>2</p>out of <P>10</P> </span>
+        </div>
+        <div class="buttons">
+            <button class="restart">Replay Quiz</button>
+            <button class="quit">Quit Quiz</button>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+          
 </body>
 </html>
