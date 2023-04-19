@@ -27,7 +27,6 @@ article{
     border-radius: 2%;
     overflow: auto;
     box-shadow: var(--box-shadow);
-    /*filter: grayscale(100%);*/
 }
 
 article  p:hover {
@@ -85,7 +84,7 @@ a:hover{
     opacity: 1;
 }
 
-nav {
+#nav-section {
     width: 60vw;
     height: 30vh;
     margin: 2em auto 2em auto;
